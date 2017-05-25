@@ -3672,6 +3672,13 @@
             <field name="target_component" type="uint8_t">Component ID</field>
             <field name="tune" type="char[30]">tune in board specific format</field>
           </message>
+	  
+	  <message id="259" name="DRONIADA_PROXY">
+               <description>Droniada proxy data.</description>
+               <field type="uint8_t" name="major">Major of the beacon.</field>
+	       <field type="uint8_t" name="minor">Minor of the beacon.</field>
+               <field type="uint16_t" name="rssi">RSSI of the received signal.</field>
+          </message>
           
         </messages>
 </mavlink>
