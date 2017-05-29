@@ -3677,7 +3677,7 @@
                <description>Droniada proxy data.</description>
                <field type="uint8_t" name="major">Major of the beacon.</field>
 	       <field type="uint8_t" name="minor">Minor of the beacon.</field>
-               <field type="uint16_t" name="rssi">RSSI of the received signal.</field>
+               <field type="uint8_t" name="rssi">RSSI of the received signal.</field>
           </message>
           
         </messages>
